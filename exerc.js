@@ -5,10 +5,19 @@
 //     tCelcius: Temperature in Celcius
 
 
-function temp(fahrenheit,celsius) {
+// function temp(fahrenheit,celsius) {
+
+//     fahrenheit = (celsius*9/5)+32;
+//    return fahrenheit;
+
+// }
+// console.log(temp(230,40));
+function Temperature(fahrenheit,celsius) {
 
     fahrenheit = (celsius*9/5)+32;
    return fahrenheit;
-   
+
 }
-console.log(temp(230,40));
+console.log(Temperature(260,60));
+
+
